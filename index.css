@@ -26,11 +26,11 @@ button{
     border: 2px solid rgba(0,0,0,0.3);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
-    background-color: blueviolet;
+    background-color: hsl(44, 72%, 66%);
 }
 
 button:hover{
-    background-color: rgb(101, 33, 165);
+    background-color: hsl(30, 72%, 66%);
 }
 
 .container{
@@ -38,7 +38,7 @@ button:hover{
     margin: auto;
 }
 
-.color-acento{ color:blueviolet; }
+.color-acento{ color:hsl(33, 76%, 17%); }
 
 header{
     background-color: rgb(245,245,245);
@@ -49,7 +49,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: hsl(33, 76%, 17%);
     font-size: 1.6em;
 }
 
@@ -74,7 +74,7 @@ header a{
 }
 
 header a:hover{
-    color: blueviolet;
+    color: hsl(33, 76%, 17%);
 }
 
 #hero{
@@ -86,13 +86,13 @@ header a:hover{
     height: 90vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(31, 24, 16, 0.7),
+        rgba(31, 24, 16, 0.7)
     )
-    ,url("media/hero.jpg");
+    ,url("media/herospa.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
 }
 
 #hero h1{
@@ -141,7 +141,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/20603-a-stones-throw-massage-oakhurst-ca-therapy-image-3-Header-Short-1400x300.jpg");
 
 }
 
@@ -151,7 +151,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("media/Main-Cover-Facial-4-qg1zj36ngqx2lvds77hcd3gfoibvcvtl65js68bkbk.jpg");
 }
 
 .carta:nth-child(3){
@@ -160,9 +160,20 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("media/facial-treatment-at-beauty-salon-1400x300.jpg");
 
 }
+
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/11076-ascent_spa_treatment-room-Header-Short-1400x300.jpg");
+
+}
+
 
 #caracteristicas .container{
     text-align: center;
@@ -274,6 +285,7 @@ footer .container{
 
     #nuestros-programas h3{
         margin-top: 0;
+        
     }
 
     #nuestros-programas .carta{
@@ -291,7 +303,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("media/20603-a-stones-throw-massage-oakhurst-ca-therapy-image-3-Header-Short-1400x300.jpg");
 
     }
 
@@ -301,7 +313,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("media/Main-Cover-Facial-4-qg1zj36ngqx2lvds77hcd3gfoibvcvtl65js68bkbk.jpg");
     }
 
     .carta:nth-child(3){
@@ -310,7 +322,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("media/facial-treatment-at-beauty-salon-1400x300.jpg");
 
     }
 
